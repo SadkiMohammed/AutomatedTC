@@ -70,6 +70,13 @@ describe('Automatisation Exercises', () => {
     connexiontest.continuerCommande();
     connexiontest.deletCreatedAcount();
   });
+  
+  it("Test Case 14: Place Order: Register while Checkout",() =>{
+    connexiontest.passerCommandeAnonime();
+    connexiontest.createAcount();
+    connexiontest.continuerCommande();
+    connexiontest.deletCreatedAcount();
+  });
 });
 
 

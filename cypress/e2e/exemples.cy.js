@@ -1,4 +1,3 @@
-// cypress/e2e/signup_login.cy.js
 import ConnexionTools from './Pages/connexionTools.js';
 const connexiontest = new ConnexionTools();
 describe('Automatisation Exercises', () => {
